@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic
+);
+
+body,
+html {
+  margin: 0;
+  font-family: muli;
+  height: 100%;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+}
+
+.toolbarFilters {
+  margin: 0;
+  padding: 4px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.filter {
+  border: 1px solid black;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: grey;
+  color: white;
+  border: none;
+}
+
+.projects {
+  width: 100%;
+}
+
+.projectItem {
+  width: 100%;
+  column-count: 3;
+}
+
+.project {
+  margin: 0px 0px 0 px 0;
+}
+
+.projectImg {
+  width: 100%;
+}
